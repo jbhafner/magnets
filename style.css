@@ -1,0 +1,103 @@
+/*
+body {
+   display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+*/
+  .section-header {
+      text-align: center;
+  }
+
+  .infoBox {
+      display: flex;
+      border: 5px black solid;
+      color:purple;
+      padding: 0 20px;
+  }
+
+  .submitButton {
+      text-align: center;
+  }
+
+  .sampleMagnet {
+
+  }
+
+  .magnetBox {
+        background-image: url("assets/images/EthosMagnet.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+         //background-color: gray;
+        border: 1px solid rgba(153,153,153, 0.5);
+        box-shadow: 0px 5px 10px 0px rgba(153,153,153,0.5);
+        height: 400px;
+        padding-left: 5px;
+        //width: 336px;
+  }
+
+  .logo-box {
+    background-color: green;
+    display: inline-block;
+    height: 65px;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+    width:  75px;
+  }
+
+  .nametitle-box {
+    display: inline-block;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3em;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: bottom;
+    width: 256px;
+  }
+  
+  .contactinfo-box {
+    // background-color: pink;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    // height: 116px;
+    margin: 0px ;
+    padding-left: 10px;
+    // width: 336px;
+    /* https://www.w3schools.com/css/css_align.asp*/
+    // line-height: 1.5;
+    display: block;
+    vertical-align: middle;
+  }
+
+  .miscinfo-box {
+    // background-color: pink;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    // height: 116px;
+    margin: 0px ;
+    padding-left: 10px;
+    // width: 336px;
+    /* https://www.w3schools.com/css/css_align.asp*/
+    // line-height: 1.5;
+    //display: block;
+    vertical-align: middle;
+  }
+  
+  #cardName {
+    font-style: bold;
+    margin: 0px ;
+    padding: 0px;
+  }
+  
+  #cardTitle {
+    font-style: oblique;
+    margin: 0px ;
+    padding: 0px;
+  }
