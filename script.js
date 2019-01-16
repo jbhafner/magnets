@@ -4,9 +4,6 @@ $("#submitBtn").click(doSubmit);
 // Grabs all the input fields
 function doSubmit() {
     console.log('submit button clicked!');
-    let title1 = $("#magTitle1").val();
-    let title2 = $("#magTitle2").value;
-    console.log(`${title1} ${title2}`);
     const inputs = document.querySelectorAll("input");
     console.log('inputs', inputs);
     inputs.forEach(createMagnet);
